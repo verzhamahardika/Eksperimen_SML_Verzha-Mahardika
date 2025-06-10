@@ -27,7 +27,8 @@ jobs:
         pip install pandas scikit-learn
 
     - name: Run preprocessing script
-      run: python preprocessing/automate_Verzha-Mahardika.py
+      run: |
+         python preprocessing/automate_Verzha-Mahardika.py
 
     - name: Cek hasil preprocessing
       run: |
