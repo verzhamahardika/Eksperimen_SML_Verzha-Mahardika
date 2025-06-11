@@ -3,7 +3,7 @@ name: Preprocess Dataset
 on:
   push:
     paths:
-      - "preprocessing/automate_Verzha-Mahardika.py"
+      - "Preprocessing/automate_Verzha-Mahardika.py"
       - "namadataset_raw/Supplement-Sales-Weekly-Expanded_raw.csv"
       - '.github/workflows/**'
   workflow_dispatch:
